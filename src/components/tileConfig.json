@@ -1,0 +1,50 @@
+{
+  "dog1": {
+    "link": "/images/01.jpg",
+    "id": 0
+  },
+  "dog2": {
+    "link": "/images/02.jpg",
+    "id": 1
+  },
+  "dog3": {
+    "link": "/images/03.jpg",
+    "id": 2
+  },
+  "dog4": {
+    "link": "/images/04.jpg",
+    "id": 3
+  },
+  "dog5": {
+    "link": "/images/05.jpg",
+    "id": 4
+  },
+  "dog6": {
+    "link": "/images/06.jpg",
+    "id": 5
+  },
+  "dog7": {
+    "link": "/images/07.jpg",
+    "id": 6
+  },
+  "dog8": {
+    "link": "/images/08.jpg",
+    "id": 7
+  },
+  "dog9": {
+    "link": "/images/09.jpg",
+    "id": 8
+  },
+  "dog10": {
+    "link": "/images/10.jpg",
+    "id": 9
+  },
+  "dog11": {
+    "link": "/images/11.jpg",
+    "id": 10
+  },
+  "dog12": {
+    "link": "/images/12.jpg",
+    "id": 12
+  }
+}
