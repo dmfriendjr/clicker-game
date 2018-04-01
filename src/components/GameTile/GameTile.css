@@ -1,0 +1,8 @@
+.gameTile {
+  width: 175px; 
+  height: 175px;
+  border-color: #316C85;
+  border-width: 2.5px;
+  border-style: solid;
+  margin: 5px;
+}

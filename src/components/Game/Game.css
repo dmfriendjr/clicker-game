@@ -1,0 +1,38 @@
+body {
+  background-color: #7CA9BD;
+}
+
+.scoreDisplay {
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Chicle';
+  background-color: #316C85;
+  color: #7CA9BD;
+  margin: 0 auto 15px auto;
+  width: 25%;
+  border-bottom-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+
+.scoreDisplay > span {
+  display: inline-block;
+  padding: 15px 0 15px 0;
+}
+
+.scoreDisplay > p {
+  padding: 15px 0 15px 0;
+}
+
+.scoreDisplay > span:first-of-type {
+  margin-right: 15px;
+}
+
+.tileContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  width: 60%;
+  margin: 0 auto;
+}
+

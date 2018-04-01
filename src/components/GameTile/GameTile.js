@@ -1,12 +1,6 @@
 import React from 'react';
+import './GameTile.css';
 
-const styles = {
-  width: 175, 
-  height: 175, 
-  borderStyle: 'solid', 
-  margin: 5
-}
-
-const GameTile = props => <img src={props.link} style={styles} alt='dog' onClick={() => props.onClicked(props.id)} />;
+const GameTile = props => <img className="gameTile" src={props.link} alt='dog' onClick={() => props.onClicked(props.id)} />;
 
 export default GameTile;

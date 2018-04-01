@@ -1,6 +1,7 @@
 import React from 'react';
-import GameTile from './GameTile/GameTile';
+import GameTile from '../GameTile/GameTile';
 import tileConfig from './tileConfig.json';
+import './Game.css';
 
 class Game extends React.Component {
   constructor(props) {
@@ -8,7 +9,7 @@ class Game extends React.Component {
     
     this.state = {
       tiles: this.loadTiles(),
-      score: 0
+      score: 12 
     }
   }
 
@@ -56,10 +57,17 @@ class Game extends React.Component {
     console.log(this.state.tiles);
     return (
       <div>
-        <div>
-          <p>{this.state.score}</p>
+          {this.state.score === this.state.tiles.length ? 
+          <div className="scoreDisplay">
+            <p>You Win! Click any to restart.</p>
+          </div>
+          :
+          <div className="scoreDisplay">
+            <span>Score: </span><span>{this.state.score}</span>
+          </div>}
+        <div className="tileContainer">
+          {this.state.tiles.map(tile => <GameTile onClicked={this.onTileClicked} link={tile.link} id={tile.id} key={tile.id} />)}
         </div>
-        {this.state.tiles.map(tile => <GameTile onClicked={this.onTileClicked} link={tile.link} id={tile.id} key={tile.id} />)}
       </div>);
   }
 }
