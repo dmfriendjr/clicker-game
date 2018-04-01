@@ -9,7 +9,7 @@ class Game extends React.Component {
     
     this.state = {
       tiles: this.loadTiles(),
-      score: 12 
+      score: 0 
     }
   }
 
