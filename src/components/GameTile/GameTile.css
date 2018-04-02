@@ -7,6 +7,14 @@
   margin: 25px;
 }
 
+@media screen and (max-width: 600px) {
+  .gameTile {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+
 /* Wobble Top */
 /* 
 Copyright 2017 Ian Lunn Design Limited
